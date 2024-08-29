@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomePageComponent } from './shared/pages/home-page/home-page.component';
 import { AbautPageComponent } from './shared/pages/abaut-page/abaut-page.component';
+import { ContacPageComponent } from './shared/pages/contac-page/contac-page.component';
 
 const routes: Routes = [
   {
@@ -11,6 +12,11 @@ const routes: Routes = [
   {
     path:'abaut',
     component: AbautPageComponent
+  },
+  {
+    path: 'contac',
+    component: ContacPageComponent
+
   },
   {
     path: '**',
